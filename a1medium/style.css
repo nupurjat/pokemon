@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+ background-color: white;
+}
+main{
+      width: calc(100% - 60px);
+    height: 100%;
+  
+      background-color: rgb(214, 229, 237);
+    margin: 20px 30px 20px 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    height: 110px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px ;
+}
+.ri-align-justify{
+  font-size: 30px;
+   color: rgb(50, 96, 131);
+   border-radius: 30%;
+   padding: 10px;
+}
+.ri-sun-line{
+    font-size: 30px;
+       padding: 10px;
+    
+     border-radius: 20px;
+}
+header{
+    width: 100%;
+    height: 8%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 0px 30px 0px 30px ;
+}
+.search button {
+    padding: 15px 150px 15px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.btn button{
+     padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius:20px;
+}
+section{
+  width: 100%;
+  height: 60%;
+  
+   padding: 10px 30px 0px 90px ;
+ 
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+section .cards {
+    width: 290px;
+    height: 90%;
+     background-color: rgb(239, 244, 246);
+ position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  border-radius: 20px;
+}
+.cards .photo{
+   width: 230px;
+    height: 270px;
+    border-radius: 50%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .top{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+   gap: 190px;
+   font-weight: 300;
+   color: rgb(144, 141, 141);
+}
+#green{
+    border-bottom: 5px solid #5BCB77;
+}
+#blue{
+    border-bottom: 5px solid #6B8BFF;
+}
+
+#red{
+    border-bottom: 5px solid #FF7A59;
+}
+
+#purple{
+    border-bottom: 5px solid #7A8FFF;
+}
+#green .photo{
+    background: radial-gradient(#BAD9C3,#EBF5EF,rgb(239, 244, 246));
+    position: relative;
+    
+}
+#blue .photo{
+    background: radial-gradient(#b4bfee,#F1F2F8,rgb(239, 244, 246));
+    position: relative;
+}
+#red .photo{
+    background: radial-gradient(#dcbabc ,#f5edeb,rgb(239, 244, 246));
+    position: relative;
+}
+#purple .photo{
+    background: radial-gradient(  #c0caee ,#d7def5 );
+      position: relative;
+      overflow: hidden;
+
+}
+.cards .name{
+    margin-top: 30px;
+}
+.theme{
+    display:flex;
+    gap:90px;
+    margin-top: 20px;
+}
+
+.theme span{
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+.grass{
+    background:#E8F8ED;
+    color:#4CAF50;
+}
+
+.fire{
+    background:#FFE9E3;
+    color:#FF6B4A;
+}
+
+.water{
+    background:#E8F1FF;
+    color:#4F8CFF;
+}
+
+.dark{
+    background:#EEF0F4;
+    color:#4B5563;
+}
+
+#green .photo img{
+  position: absolute;
+    width: 280px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#blue .photo img{
+  position: absolute;
+    width: 290px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+#red .photo img{
+   position: absolute;
+    width: 310px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+ 
+}
+#purple .photo img{
+   position: absolute;
+    width: 320px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.name{
+    font-size: 30px;
+  position: absolute;
+  top: 75%;
+  left: 30px;
+}
+footer{
+      width: 1150px;
+     height: 15%;
+   display: flex;
+  overflow: hidden;
+   align-items: center;
+  margin: 0px 90px 20px 150px ;
+  justify-content: center;
+  border-radius: 20px;
+}
+footer .container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(239, 244, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container .logo{
+    padding: 10px 10px 10px 10px;
+    background-color: #E8F1FF;
+    border-radius:40px;
+    font-size:32px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+   
+}
+ .texts p{
+    font-weight: 400;
+}
